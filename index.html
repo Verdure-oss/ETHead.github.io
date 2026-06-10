@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Your paper description here.">
-  <meta name="keywords" content="keyword1, keyword2, keyword3">
+        content="ETHead: Generating Expressive 3D Facial Animation and Head Movement from Speech using self-distillation and emotion-modulated probabilistic masking.">
+  <meta name="keywords" content="3D talking head, speech-driven animation, emotion, self-distillation, ETHead, facial animation, head movement">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your Paper Title</title>
+  <title>ETHead: Generating Expressive 3D Facial Animation and Head Movement from Speech</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -38,13 +38,7 @@
   </div>
   <div class="navbar-menu">
     <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://your-website.com">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
-      </a>
-
-      <!-- Add your research links here if needed -->
+      <!-- Home link removed for double-blind review -->
     </div>
   </div>
 </nav>
@@ -55,75 +49,52 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Your Paper Title</h1>
+          <h1 class="title is-1 publication-title">ETHead: Generating Expressive 3D Facial Animation and Head Movement from Speech</h1>
           <div class="is-size-5 publication-authors">
-            <!-- TODO: Add authors -->
-            <span class="author-block">
-              <a href="https://author1.com">Author Name 1</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="https://author2.com">Author Name 2</a><sup>2</sup>,</span>
-            <span class="author-block">
-              <a href="https://author3.com">Author Name 3</a><sup>2</sup>
-            </span>
+            <!-- Double-blind review: authors anonymous -->
+            <span class="author-block">Anonymous Authors</span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University 1,</span>
-            <span class="author-block"><sup>2</sup>University 2</span>
+            <span class="author-block">Under Review</span>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
-              <!-- PDF Link. -->
+              <!-- Links will be added after review -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/YOUR_PAPER_ID"
-                   class="external-link button is-normal is-rounded is-dark">
+                <span class="button is-normal is-rounded is-dark is-outlined" disabled>
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                   </span>
-                  <span>Paper</span>
-                </a>
+                  <span>Paper (Coming Soon)</span>
+                </span>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/abs/YOUR_PAPER_ID"
-                   class="external-link button is-normal is-rounded is-dark">
+                <span class="button is-normal is-rounded is-dark is-outlined" disabled>
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
                   </span>
-                  <span>arXiv</span>
-                </a>
+                  <span>arXiv (Coming Soon)</span>
+                </span>
               </span>
-              <!-- Video Link. -->
               <span class="link-block">
-                <a href="https://www.youtube.com/YOUR_VIDEO"
-                   class="external-link button is-normal is-rounded is-dark">
+                <span class="button is-normal is-rounded is-dark is-outlined" disabled>
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
                   </span>
-                  <span>Video</span>
-                </a>
+                  <span>Video (Coming Soon)</span>
+                </span>
               </span>
-              <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/YOUR_REPO"
-                   class="external-link button is-normal is-rounded is-dark">
+                <span class="button is-normal is-rounded is-dark is-outlined" disabled>
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
-                  <span>Code</span>
-                  </a>
+                  <span>Code (Coming Soon)</span>
+                </span>
               </span>
-              <!-- Dataset Link. -->
-              <span class="link-block">
-                <a href="https://github.com/YOUR_DATA"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="far fa-images"></i>
-                  </span>
-                  <span>Data</span>
-                  </a>
             </div>
-
           </div>
         </div>
       </div>
@@ -136,7 +107,7 @@
     <div class="hero-body">
       <img src="./static/images/teaser.png" alt="Teaser" />
       <h2 class="subtitle has-text-centered">
-        Your teaser description here.
+        Generating expressive 3D facial animation and head movement from speech.
       </h2>
     </div>
   </div>
@@ -154,7 +125,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Your abstract text here.
+            Generating expressive 3D talking heads solely from speech remains a significant challenge due to the scarcity of high-fidelity 3D data, which limits the modeling of complex emotional motion patterns. In this paper, we introduce <b>E</b>xpressive <b>T</b>alking <b>Head</b> (ETHead), a method for generating 3D facial and head motions that vividly align with the emotional content of input speech. To overcome the data limitations, we design a self-distillation framework that leverages large-scale 2D talking videos to pre-train a specialized speech encoder. By incorporating a novel emotion-modulated probabilistic masking mechanism, this framework aligns speech representations with expressive visual dynamics, allowing the encoder to extract features highly correlated with facial and head motions directly from audio. These features are then leveraged to guide 3D generation, enriching input cues and providing explicit supervision through a joint speech-motion latent space. Extensive experiments demonstrate that ETHead substantially outperforms state-of-the-art methods. Furthermore, our motion-aligned speech encoder can serve as a transferable module, offering a general solution for enhancing expressiveness in other 3D talking head animation frameworks. The source code will be publicly released.
           </p>
         </div>
       </div>
@@ -186,34 +157,34 @@
         <div class="content">
           <h2 class="title is-3">Method</h2>
           <p>
-            Describe your overall method here. Explain the pipeline and how the stages connect.
+            ETHead generates expressive 3D facial animation and head movement from speech through two key components: a motion-aligned speech encoder and a cascaded generation pipeline.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Stage 1 Pipeline -->
+    <!-- Motion-Aligned Speech Encoder -->
     <div class="columns is-centered">
-      <div class="column">
+      <div class="column is-8">
         <div class="content">
-          <h3 class="title is-4">Stage 1: [Your Stage 1 Title]</h3>
+          <h3 class="title is-4">Motion-Aligned Speech Encoder</h3>
           <p>
-            Describe what happens in Stage 1. What is the input? What processing occurs? What is the output?
+            Self-distillation framework for pre-training a speech encoder using 2D talking head videos. Student and Teacher networks extract modality-specific features with emotion-aware temporal masking.
           </p>
-          <img src="./static/images/stage1_pipeline.png" alt="Stage 1 Pipeline" />
+          <img src="./static/images/stage1_pipeline.png" alt="Motion-Aligned Speech Encoder" style="max-width: 80%; margin: 0 auto; display: block;" />
         </div>
       </div>
     </div>
 
-    <!-- Stage 3 Pipeline -->
+    <!-- Generation Framework -->
     <div class="columns is-centered">
       <div class="column">
         <div class="content">
-          <h3 class="title is-4">Stage 3: [Your Stage 3 Title]</h3>
+          <h3 class="title is-4">Generation Framework</h3>
           <p>
-            Describe what happens in Stage 3. How does it build on Stage 1? What are the key operations?
+            Cascaded pipeline for generating facial and head motions from speech. Two diffusion-based generators produce expressive 3D animations conditioned on linguistic and emotional features.
           </p>
-          <img src="./static/images/stage3_pipeline.png" alt="Stage 3 Pipeline" />
+          <img src="./static/images/stage3_pipeline.png" alt="Generation Framework" />
         </div>
       </div>
     </div>
@@ -225,10 +196,9 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{your2024paper,
-  author    = {Author1 and Author2 and Author3},
-  title     = {Your Paper Title},
-  journal   = {Conference/Journal},
+    <pre><code>% Citation information will be available after review
+@article{anonymous2024ethead,
+  title     = {ETHead: Generating Expressive 3D Facial Animation and Head Movement from Speech},
   year      = {2024},
 }</code></pre>
   </div>
@@ -238,13 +208,13 @@
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
-      <a class="icon-link"
-         href="https://arxiv.org/pdf/YOUR_PAPER_ID">
+      <!-- Links will be added after review -->
+      <span class="icon-link" style="opacity: 0.5; cursor: not-allowed;">
         <i class="fas fa-file-pdf"></i>
-      </a>
-      <a class="icon-link" href="https://github.com/YOUR_REPO" class="external-link">
+      </span>
+      <span class="icon-link" style="opacity: 0.5; cursor: not-allowed;">
         <i class="fab fa-github"></i>
-      </a>
+      </span>
     </div>
     <div class="columns is-centered">
       <div class="column is-8">
