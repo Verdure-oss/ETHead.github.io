@@ -1,14 +1,14 @@
-# Nerfies
+# Your Paper Name
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [Your Paper Name website](https://verdure-oss.github.io/ETHead.github.io/).
 
-If you find Nerfies useful for your work please cite:
+If you find this work useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@article{your2024paper,
+  author    = {Author1 and Author2 and Author3},
+  title     = {Your Paper Title},
+  journal   = {Conference/Journal},
+  year      = {2024},
 }
 ```
 
