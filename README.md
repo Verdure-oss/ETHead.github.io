@@ -1,13 +1,12 @@
-# Your Paper Name
+# ETHead: Generating Expressive 3D Facial Animation and Head Movement from Speech
 
-This is the repository that contains source code for the [Your Paper Name website](https://verdure-oss.github.io/ETHead.github.io/).
+This is the repository that contains source code for the [ETHead project page](https://verdure-oss.github.io/ETHead.github.io/).
 
 If you find this work useful for your work please cite:
 ```
-@article{your2024paper,
-  author    = {Author1 and Author2 and Author3},
-  title     = {Your Paper Title},
-  journal   = {Conference/Journal},
+@article{xie2024ethead,
+  author    = {Jiu-Cheng Xie and Jiwang Zheng and Yongkang Xia and Jian Xiong and Chi-Man Pun and Hao Gao and Feng Xu},
+  title     = {ETHead: Generating Expressive 3D Facial Animation and Head Movement from Speech},
   year      = {2024},
 }
 ```
