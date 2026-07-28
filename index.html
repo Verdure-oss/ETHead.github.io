@@ -116,14 +116,12 @@
     <div class="hero-body">
       <img src="./static/images/teaser.png" alt="Teaser" />
       <h2 class="subtitle has-text-centered">
-        Generating expressive 3D facial animation and head movement from speech.
+        Given input speech, our method synthesizes emotion-coherent facial and head motions via a motion-aligned speech encoder pre-trained on large-scale 2D talking-head data.
       </h2>
     </div>
   </div>
 </section>
 
-
-<!-- TODO: Add results carousel section here if you have videos -->
 
 
 <section class="section">
@@ -163,9 +161,6 @@
       <div class="column">
         <div class="content">
           <h2 class="title is-3">Method</h2>
-          <p>
-            ETHead generates expressive 3D facial animation and head movement from speech through two key components: a motion-aligned speech encoder and a cascaded generation pipeline.
-          </p>
         </div>
       </div>
     </div>
@@ -176,7 +171,7 @@
         <div class="content">
           <h3 class="title is-4">Motion-Aligned Speech Encoder</h3>
           <p>
-            Self-distillation framework for pre-training a speech encoder using 2D talking head videos. Student and Teacher networks extract modality-specific features with emotion-aware temporal masking.
+            Self-distillation framework for pre-training a speech encoder using large-scale 2D talking-head data.
           </p>
           <img src="./static/images/stage1_pipeline.png" alt="Motion-Aligned Speech Encoder" style="max-width: 60%; margin: 0 auto; display: block;" />
         </div>
@@ -189,7 +184,7 @@
         <div class="content">
           <h3 class="title is-4">Generation Framework</h3>
           <p>
-            Cascaded pipeline for generating facial and head motions from speech. Two diffusion-based generators produce expressive 3D animations conditioned on linguistic and emotional features.
+            (a) Generation Pipeline &nbsp;&nbsp; (b) Auxiliary Module
           </p>
           <img src="./static/images/stage3_pipeline.png" alt="Generation Framework" />
         </div>
