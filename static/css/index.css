@@ -168,3 +168,10 @@ body {
 .tab-content.active {
   display: block;
 }
+
+.content p.caption {
+  font-size: 0.9rem;
+  max-width: 700px;
+  margin: 0.5rem auto 0;
+  text-align: center;
+}

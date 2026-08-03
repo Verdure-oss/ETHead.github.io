@@ -153,7 +153,7 @@
       <div class="column">
         <div class="content has-text-centered">
           <img src="./static/images/stage1_pipeline.png" alt="Motion-Aligned Speech Encoder" style="max-width: 60%; margin: 0 auto; display: block;" />
-          <p><b>Motion-Aligned Speech Encoder</b></p>
+          <p class="caption"><b>Training framework of the motion-aligned speech encoder.</b> Given a talking head video clip, the Student and Teacher networks separately extract modality-specific features followed by intra-network fusion. Random temporal masking is applied exclusively to the Student's features, specifically targeting segments with intense emotional dynamics identified by prosody variations. The visual tokens are randomly dropped and replaced with learnable tokens. The training is driven by two self-distillation objectives: L<sub>cls</sub> aligns category predictions, while L<sub>reg</sub> reconstructs fused tokens at masked positions.</p>
         </div>
       </div>
     </div>
@@ -163,7 +163,7 @@
       <div class="column">
         <div class="content has-text-centered">
           <img src="./static/images/stage3_pipeline.png" alt="Generation Framework" style="max-width: 80%; margin: 0 auto; display: block;" />
-          <p><b>(a) Generation Pipeline &nbsp;&nbsp; (b) Auxiliary Module</b></p>
+          <p class="caption"><b>Overview of the proposed framework.</b> (a) Generation Pipeline: The model extracts linguistic content and emotional features from input speech to condition two diffusion-based generators. In a cascaded manner, synthesized facial motion parameters are combined with speech features to drive the subsequent head motion generator. Training is supervised by reconstruction and kinematic consistency objectives. (b) Auxiliary Module: An optional motion-aligned speech encoder enhances the baseline through input feature modulation and output-level supervision within a pre-trained speech-motion latent space.</p>
         </div>
       </div>
     </div>
